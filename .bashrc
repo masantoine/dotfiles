@@ -44,3 +44,8 @@ PS1='(${blue}${timer_show}${white}) ${purple}\W${default}\$ '
 #PS1='(${blue}${timer_show}${white}) ${purple}\u@\h:\W${default}\$ '
 
 export EDITOR=/usr/bin/vim
+
+# read bash aliases
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
