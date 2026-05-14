@@ -1,9 +1,19 @@
 # Keep track only on selected files
-*
+/*
 
 # bash config
-!.bashrc
-!.bash_aliases
+!/.bashrc
+!/.bash_aliases
 
 # Git config
-!.gitignore
+!/.gitignore
+
+# needs to include directory for subdirectory
+!/.config/
+/.config/*
+
+# list of package to install
+!/.config/install.txt
+
+# tmux config
+!/.config/tmux

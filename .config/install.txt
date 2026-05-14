@@ -1,0 +1,3 @@
+expect 	        # for unbuffer
+neovim 	        # install from git for latest version
+ripgrep         # used by neovim

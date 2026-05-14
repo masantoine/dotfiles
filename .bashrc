@@ -97,3 +97,8 @@ fi
 
 # add local bin to path
 export PATH="$HOME/.local/bin:$PATH"
+
+# set XDG_CONFIG_HOME if not set (used in tmux and other)
+if [ -z "$XDG_CONFIG_HOME" ]; then
+	XDG_CONFIG_HOME="$HOME/.config"
+fi
