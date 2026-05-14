@@ -1,0 +1,9 @@
+# Keep track only on selected files
+*
+
+# bash config
+!.bashrc
+!.bash_aliases
+
+# Git config
+!.gitignore
