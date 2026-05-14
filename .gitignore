@@ -17,3 +17,6 @@
 
 # tmux config
 !/.config/tmux
+
+# neovim config
+!/.config/nvim
