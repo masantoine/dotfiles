@@ -6,3 +6,14 @@ ripgrep
 pipx
 pynvim # with pipx
 
+# neovim lazy plugin
+luarocks
+
+# neovim telescope plugin
+fd-find
+
+# lsp
+pyright # with pipx
+
+# tree sitter
+tree sitter # from github version too low

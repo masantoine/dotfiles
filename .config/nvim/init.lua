@@ -8,3 +8,6 @@ vim.g.mapleader = " "
 
 -- include plugins
 require("config.lazy")
+
+-- include filetype specific
+require("config.lsp")
