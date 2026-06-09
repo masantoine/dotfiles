@@ -17,3 +17,5 @@ pyright # with pipx
 
 # tree sitter
 tree sitter # from github version too low
+
+tmuxinator
