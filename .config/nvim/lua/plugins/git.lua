@@ -18,5 +18,30 @@ return {
 	gitsign.toggle_word_diff()
       end, "toggle git info"},
     },
+  },
+  {
+    "kdheepak/lazygit.nvim",
+    lazy = true,
+    -- optional for floating window border decoration
+    dependencies = {
+        "nvim-lua/plenary.nvim",
+    },
+    keys = {
+        { "<leader>c", "<cmd>LazyGit<cr>", desc = "LazyGit" }
+    }
+  },
+  {
+    "niuiic/git-log.nvim",
+    dependencies = {
+      "niuiic/omega.nvim"
+    },
+    keys = {
+      { "<leader>l",
+        function()
+          require("git-log").check_log()
+        end,
+        desc = "git log" , mode = {"n", "v"}
+      }
+    }
   }
 }
