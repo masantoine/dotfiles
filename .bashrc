@@ -102,3 +102,7 @@ export PATH="$HOME/.local/bin:$PATH"
 if [ -z "$XDG_CONFIG_HOME" ]; then
 	XDG_CONFIG_HOME="$HOME/.config"
 fi
+
+# Param specifig to go
+export GOPATH="$HOME/.local/go"
+export GOBIN="$HOME/.local/bin"

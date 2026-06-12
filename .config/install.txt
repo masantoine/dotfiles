@@ -19,3 +19,9 @@ pyright # with pipx
 tree sitter # from github version too low
 
 tmuxinator
+
+# go
+golang-go
+
+# lazygit (with go)
+lazygit
