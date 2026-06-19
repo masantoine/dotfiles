@@ -11,7 +11,6 @@ return {
       { "<leader>g", "<cmd>Telescope live_grep<CR>", desc="Grep in current directory"},
       { "<leader>d", "<cmd>Telescope lsp_definitions<CR>", desc="Find definitions"},
       { "<leader>r", "<cmd>Telescope lsp_references<CR>", desc="Find references"},
-      { "<leader>t", "<cmd>Telescope<CR>", desc="List all telescope picker"},
     }
   },
   {
