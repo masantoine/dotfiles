@@ -18,7 +18,8 @@ return {
             end
           end)
         end
-      }
+      },
+      {"<leader>ot", "<cmd>OverseerToggle<CR>", "Toggle overseer"},
     },
   }
 }
